@@ -1,0 +1,25 @@
+@media only screen and (max-width:430px) {
+    .main{
+        width: 90%;
+    }
+    .head{
+        margin-top: 10px;
+    }
+    .find{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    input{
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+    button{
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+    }
+    .output{
+        font-size: 20px;
+    }
+}
